@@ -1,0 +1,70 @@
+.footnote {
+  position: absolute;
+  bottom: 60px;
+  padding-right: 4em;
+  font-size: 0.8em;
+}
+
+.title-slide h1 {
+  font-size: 2.25em;
+}
+
+.title-slide h2 {
+  font-size: 1.75em;
+}
+
+.title-slide h3 {
+  font-size: 1.25em ;
+}
+
+.pull-left-narrow {
+  float: left;
+  width: 20%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700);
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+  font-family: "Lato", "Source Sans Pro", sans-serif;
+}
+
+h1, h2 {
+  font-family: "Lora", serif;
+}
+
+h3 {
+  font-family: "Lora", serif;
+}
+
+h4 {
+  font-family: "Lora", serif;
+  font-size: 1.25rem;
+}
+
+.remark-code,.remark-inline-code {
+  font-family: "Source Code Pro", "Lucida Console", monospace;
+}
+
+.remark-slide-number {
+  position: inherit;
+}
+
+.remark-slide-number .progress-bar-container {
+  position: absolute;
+  bottom: 0;
+  height: 4px;
+  display: block;
+  left: 0;
+  right: 0;
+}
+
+.remark-slide-number .progress-bar {
+  height: 100%;
+  background-color: var(--header-color);
+}
+  
