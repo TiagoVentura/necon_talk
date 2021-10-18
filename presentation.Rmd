@@ -1,8 +1,8 @@
 ---
-title: "News Sharing, Activation and Behavioral Effects of Social Media"
+title: "Truth be told: Cognitive moderators of selective sharing of fact-checks on social media"
 author: "Tiago Ventura"
 institute: "University of Maryland, College Park"
-date: "Job Talk: Gesis -  10/03/2021"
+date: "Necon - 10/22/2021"
 output:
   xaringan::moon_reader:
     css: [ "xaringan-themer.css", "custom.css"]
@@ -25,7 +25,7 @@ xaringanthemer::style_mono_accent(base_color ="#23395b",
                                   title_slide_text_color="#23395b", 
                                   title_slide_background_color = "#fbf9f4", 
                                   background_color = "#fbf9f4", 
-                                  link_color =  "#FFFFFF")
+                                  link_color =  "#C93312")
 
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(message=FALSE, warning = FALSE, error=TRUE, echo=FALSE, cache=TRUE)
@@ -45,7 +45,7 @@ class: inverse
 
 .pull-left[
 
-<img style="border-radius: 40%;" src="tiago.jpg" width="150px"/>
+<img style="border-radius: 40%;" src="./figs/tiago.jpg" width="150px"/>
 
 [`r icons::simple_icons("twitter")` @TiagoVentura_](https://twitter.com/_Tiagoventura)
 
@@ -60,11 +60,14 @@ class: inverse
 .pull-right[
 .middle[
 
-Ph.D Candidate Government and Politics at University of Maryland.
-
 Researcher on Civic Integrity on @Twitter.
 
 Affiliated with the Interdisciplinary Lab for Computational Social Science at UMD.
+
+Ph.D Candidate Government and Politics at University of Maryland.
+
+Doutor em Ciência Política pelo Iesp-Uerj.
+
 ]
 ]
 
@@ -74,180 +77,124 @@ class: middle
 
 # Plans for Talk
 
+- **An overview of our research agenda and methods at the iLCSS**
 
-**News Sharing on Social Media <a style="color:red"> (Behavioral Data)</a> **
-
-**Streaming Chats and Effects on Political Attitudes <a style="color:red"> (Field Digital Experiment)</a>**
-
-**Proposal: The effects of Fact-Checking on Digital Behavior <a style="color:red"> (Field Experiment + Behavioral Data) </a>**
---
-
+- **Truth be told: Cognitive moderators of selective sharing of fact-checks on social media**
 
 ---
-#### News Sharing and Social Media: Ideology, Attention, and Reputation.  
+### iLCSS: Social Science meets Data
 
 .panelset[
 
-.panel[.panel-name[Articles]
-.pull-left[.center[
-```{r}
-knitr::include_graphics("./figs/dij.png")
-```
-]]
+.panel[.panel-name[iLCSS]
 
-.pull-right[
-```{r}
-knitr::include_graphics("./figs/ijpp.png")
-```
+
+**Truth be Told**  is one of the many projects I have been working as a member of the [Interdisciplinary Lab for Computational Social Science](https://ilcss.umd.edu/) at UMD
+
+Before we start, I want to say a few words about how this project fits in our broader mission at iLCSS. 
+
+At iLCSS we replicate a logic quite strong on hard-science labs: most of our work is collaborative and involves several co-authors. So I want to thanks my co-authors on this paper:
+
+- Natalia Aruguete (UnQ), Ernesto Calvo (UMD), Ingrid Bachman (Puc-Chile), Sebastian Valenzuela (Puc-Chile)
+
+- And *Chequeado*
+
 ]
-]
 
-.panel[.panel-name[Research Question]
+.panel[.panel-name[People]
 
-.center[**Why do Users Share News on Social Media?**]
-
+.pull-left[
 .center[
-```{r out.width="80%"}
-knitr::include_graphics("./figs/Calvo-NBPD-Facebook.jpg")
+```{r out.width="60%"}
+knitr::include_graphics("figs/ilcss1.png")
 ```
-]
-]
 
-.panel[.panel-name[Behavioral Parameters]
+```{r out.width="60%"}
+knitr::include_graphics("figs/ilcss2.png")
+```
+
+]]
 
 .pull-left[
-```{r out.width="100%"}
-knitr::include_graphics("./figs/parameters_ideo_poster.png")
-```
-]
-
-.pull-right[
-```{r out.width="100%"}
-knitr::include_graphics("./figs/parameters_attention_poster.png")
-```
-]
-]
-
-.panel[.panel-name[Echo-Chambers]
-
-.pull-left[
-**If ideology is correlated with attention:**
-
-- More active partisan content willl be over-represented. 
-
-- Social media bubbles will emerge from activation, and not sorting.
-]
-.pull-right[
-```{r out.width="100%"}
-knitr::include_graphics("./figs/corr_figure.png")
-```
-]
-]
-]
-
----
-
-#### The Effect of Streaming Chat on Perceptions of Political Debates. 
-
-.panelset[
-
-.panel[.panel-name[Articles]
-.pull-left[
-```{r}
-knitr::include_graphics("./figs/joc.png")
-```
-]
-
-.pull-right[
-```{r}
-knitr::include_graphics("./figs/jqd.png")
-```
-]
-]
-
-.panel[.panel-name[Streaming Chats]
-
-.pull-left[
-
-**Video Feed + Social Chat: All in one screen.**
-
-Popular among the younger generations.
-
-- Twitch (Amazon)
-- YouTube/YouTube Gaming (Google)
-- Mixer (Microsoft)
-- Facebook Lives
-]
-.pull-right[
-```{r out.width="80%"}
-knitr::include_graphics("./figs/genelectionabc.png")
-```
-]
-]
-
-.panel[.panel-name[Research Design]
-
-
-We conducted a large scale ''field" experiment that assigns would-be debate viewers to watch on different platforms the October 2019 Democratic Debate.
-
-Two-Wave On-line Survey in September 2019 through MTurk (following Gross, Porter and Wood, 2019). 
-
-**Three main experimental conditions**
-
-- Control (standard NBC broadcast)
-- Expert chat (538 website)
-- Streaming chat (Facebook)
-
-We then surveyed the respondents after the debate and measured the effects of streaming chats. 
-]
-
-.panel[.panel-name[Results I]
-
 .center[
-Facebook chat somewhat less informative, enjoyable, and engaging
-
-```{r  echo=FALSE, out.width= '60%'}
-knitr::include_graphics("./figs/frequencyplot.png")
+```{r out.width="60%"}
+knitr::include_graphics("figs/ilcss3.png")
 ```
-]]
 
-.panel[.panel-name[Results II]
-
-.center[Facebook chat lead to a decrease in emotions towards the candidates
-
-```{r  echo=FALSE, out.width= '60%'}
-knitr::include_graphics("./figs/ftplot.png")
+```{r out.width="60%"}
+knitr::include_graphics("figs/ilcss4.png")
 ```
+
 ]]
 ]
 
----
+.panel[.panel-name[Our Approach]
 
-class: center, middle 
+.center[]
 
-```{r echo=FALSE, out.width="100%"}
-knitr::include_graphics("figs/methods.jpg")
+.pull-left[
+.center[**Big Data + Computational Modelling**
+
+```{r out.width="90%"}
+knitr::include_graphics("figs/network.png")
 ```
+]
+]
+
+
+.pull-right[
+.center[**Small On-line Experiments**
+
+```{r out.width="60%"}
+knitr::include_graphics("figs/manuel.png")
+```
+]
+]
+
+
+.panel[.panel-name[Our Research]
+
+Under this umbrella, I have worked on a few different projects focusing on substantive issues in the midst of communications, political behavior, and computational social science:
+
+- News Sharing on Social-Media: Papers [Here](https://www.tandfonline.com/doi/abs/10.1080/21670811.2020.1852094) and [Here](https://tiagoventura.rbind.io/files/News_by_popular_demand_II.pdf)
+
+- Framing, Activation and Social Media Echo-Chambers: Papers [Here]() and [Here](https://tiagoventura.rbind.io/files/Event_Adjudication_in_Social_Media.pdf)
+
+- Behavioral Effects of Social Media: [Trust](https://www.econstor.eu/handle/10419/237464) and [Risk Related to Covid-19](https://www.cambridge.org/core/journals/latin-american-politics-and-society/article/abs/will-i-get-covid19-partisanship-social-media-frames-and-perceptions-of-health-risk-in-brazil/496B0EE199D8079AC6B9467BCF0EB08C)
+
+- Strategies to work with Big Social Media Network Data: [The Path-Weighted Regression Model](https://methods.sagepub.com/book/research-methods-in-political-science-and-international-relations/i4823.xml)
+
+]
+]
+]
+
+---
+class:middle, center, inverse
+
+## Truth be told: Cognitive moderators of selective sharing of fact-checks on social media
 
 
 ---
-class:inverse, middle, center
-
-## Future Research Agenda
-
-
----
-class: inverse, middle, center
-
-## How does misinformation corrections affect digital behavior?
-
----
-
-## A glimpse of the literature. 
+## A Glimpse of the Literature
 
 --
 
-Several recent scholarly work on the effects of fact-checking correction:
+Previous work have discussed several reasons why people share misinformation:
+
+- Partisan-Sharing and Negative Partisanship (Guess, Nagler, & Tucker 2019; Osmundsen et. al. 2021)
+
+- Lack of Cognitive Sophistication (Pennycock and Rand 2019)
+
+- Digital Literacy (Guess, Nagler & Tucker 2019)
+
+- Polarization, Highly Partisan Media Outlets (Faris et al 2017; Eldridge 2017)
+
+
+---
+
+### Fact-Checking 
+
+Fact-checkers have become ubiquitous to most media companies. Several recent scholarly work on the effects of fact-checking correction:
 
 - Fact-checking overall reduces misperceptions (Walter et al 2020, Wood and Porter, 2021, Nyhan et. al. 2020).
 
@@ -255,85 +202,278 @@ Several recent scholarly work on the effects of fact-checking correction:
 
 --
 
-While we have enough evidence for the effects of corrections on attitudes, less is known considering digital behavior and corrections: 
+While we have enough evidence for the effects of corrections on attitudes, less is known considering the effects of corrections on behavior on-line. Particularly, investigations on cognitive moderators of sharing corrections.
 
-- Users prefer to share pro-attitudinal corrections (Ekstrom & Lai, 2020; Aruguete et. al. 2021)
+- Users prefer to share pro-attitudinal corrections (Ekstrom & Lai, 2020, Lewendosky et al., 2012)
 
--  Partisans consult congenial sources to adjudicate between true/false (Peterson and Iyengar, 2020)
+- Partisans consult congenial sources to adjudicate between true/false (Peterson and Iyengar, 2020)
 
 --
 
 ---
-class:middle
+class: middle, inverse
 
-### Digital Field Experiment
 
-- An app-based intervention manipulating corrections. 
+### When do users share fact-checks with their peers?
 
-- Develop an APP with a feed of corrections published by reputable fact-ckeckers.
-
-- Our work would consist on curating the feed. 
-
-    - Direction of the correction (Pro and Counter Attitudinal Correction)
-
-    - Direction fo the issue (Pro and Counter Attitudinal issue)
-
-    - Frequency of the pushes
-
-    - Source to be corrected
+#### .red[What are the main cognitive moderators of the decision to share corrections?]
 
 ---
-class:middle
-### Outcomes
-
-- Survey Data: Attitudes (trust, polarization, accuracy on misinformation)
-
-- Web-browsing data: news-consumption (more congenial? more credible? more attention?)
-
-- Digital behavioral data: news-sharing (more congenial? more credible? more attention?)
+class: middle
 
 
+.pull-left-narrow[
 
----
-class:inverse, middle, center
-## Thank you! 
+#### .red[Hypothesis] 
+
+]
+
+.pull-right-wide[
+
+- *H1: Attitude-consistent fact-checks are more likely to be shared than counter-attitudinal fact-checks.*
+
+- *H2: Attitude-consistent fact-checks rated ‘true’ are more likely to be shared than attitude-consistent fact-checks rated ‘false.’*
+] 
 
 ---
 
-#### Framing Effects, Partisans and Content Activation. 
+class:middle, center, inverse
 
-.panelset[
-.panel[.panel-name[Article]
+## Research Design
+
+
+---
+### Research Design: Experiment + Social Media Data
+
+<br><br>
+
+Our paper combines two distinct empirical approaches:
+
+- .red[On-line Experiment] ~> Two Stage, Two Arm Experiment, where respondents are assigned to True/False Fact-Checking Corrections. 
+
+- .red[Observational data] ~> Social media from Twitter + a regression discontinuity design. 
+
+
+---
+
+### Experimental Design: General Flow
+
 
 .center[
+```{r}
+knitr::include_graphics("figs/flow.png")
+```
+]
 
-How do partisans and non-partisans alter the frequencies of the texts, images, and endorsements we observe in social media? 
+---
+### Experimental Design: With Images
+
+
+
+.pull-left[
+
+.center[
+<br>
+```{r out.width="80%"}
+knitr::include_graphics("figs/macri_aud.png")
+```
+
+And we do the same with a tweet congruent to Macri voters (Ofelia Case)
+
+]
+]
+.pull-right[
+
+.center[
+```{r out.width="50%"}
+knitr::include_graphics("figs/true.png")
+```
+
+
+```{r out.width="50%"}
+knitr::include_graphics("figs/false.png")
+```
+]
+]
+
+---
+### Experimental Design and Hypotheses
+
+<br><br>
+
+.center[**Would you share?**]
+```{r}
+library(kableExtra)
+library(tidyverse)
+library(formattable)
+library(extrafont)
+
+d <- read.csv("hyp.csv")
+
+d <- d %>%
+      mutate(TRUE.=ifelse(str_detect(TRUE., "Pro"), 
+                                  cell_spec(TRUE., "html", 
+                                            color =  "darkgreen", bold = T),                                          TRUE.)) %>%
+     mutate(FALSE.=ifelse(str_detect(FALSE., "Pro"), 
+                                  cell_spec(FALSE., "html", 
+                                            color =  "#C93312", bold = T),                                          FALSE.)) %>%
+   mutate(TRUE..1=ifelse(str_detect(TRUE..1, "Pro"), 
+                                  cell_spec(TRUE..1, "html", 
+                                            color =  "darkgreen", bold = T),                                          TRUE..1)) %>%
+     mutate(FALSE..1=ifelse(str_detect(FALSE..1, "Pro"), 
+                                  cell_spec(FALSE..1, "html", 
+                                            color =  "#C93312", bold = T),                                          FALSE..1))
+
+d<-d %>%
+  set_names(~c("Vote Choice", "Tweet", "True", "False", "Tweet_2", "True_Tw2", "False_Tw2"))
+
+d %>%
+ kable("html", escape = F) %>%
+  kable_styling("hover", font_size = 14,
+                # font_size = 12,
+                full_width = T) %>% 
+  column_spec(1, bold=T, width = '1.5in') %>%
+   add_header_above(c(" "=1, "Audifono" = 3, "Ofelia" = 3))
+
+```
+
+
+
+---
+class:middle, center, inverse
+
+## Results
+
+
+---
+
+### H1: Pro-Attitudinal Effects
+
+.panelset.sideways[
+
+.panel[.panel-name[Pro-Fernandez]
+
+.center[
+```{r out.width="80%"}
+knitr::include_graphics("./figs/TW1.png")
+```
+]
+]
+
+.panel[.panel-name[Pro-Macri]
+.center[
+```{r out.width="100%"}
+knitr::include_graphics("./figs/TW2.png")
+```
+]
+]
+]
+
+---
+
+### H2: Pro-Attitudinal Confirmation
+
+.panelset.sideways[
+
+.panel[.panel-name[Pro-Fernandez]
+
+.center[
+```{r out.width="60%"}
+knitr::include_graphics("./figs/true_audifono.png")
+```
 
 ```{r out.width="60%"}
-knitr::include_graphics("./figs/naf.png")
+knitr::include_graphics("./figs/false_audifono.png")
 ```
+
+
 ]
 ]
 
+.panel[.panel-name[Pro-Macri]
 
-
-
-.panel[.panel-name[Image-Based Conjoint]
 .center[
-```{r out.width="70%"}
-knitr::include_graphics("./figs/ElementsArgentina.JPG")
+```{r out.width="60%"}
+knitr::include_graphics("./figs/ofelia_true.png")
+```
+
+```{r out.width="60%"}
+knitr::include_graphics("./figs/ofelia_false.png")
+```
+
+
+]
+
+]
+.panel[.panel-name[Full-Models]
+
+.center[
+```{r out.width="100%"}
+knitr::include_graphics("./figs/pred_prob.png")
 ```
 ]
 ]
+]
+
+---
+class:center, middle, inverse
+
+### Observational Social Media Data
+
+---
+
+### Modeling the activation of Fact-Checkers
+
+<br><br>
+Our experiment provided evidence of selective sharing of .red[‘true’] and .red[‘false’] fact-checks.
+
+To assess the robustness of experimental findings, we introduce supporting evidence of **partisan selective sharing** as stated in H1 using real-world social media data.
+
+We focus on the **false rumor** that Macri was using a ear device (*audifono*) during the debate
+
+---
+### Research Design
+
+<br><br>
+
+Using the Twitter APIs we collected close to .red[3 million] Tweets during the two weeks around the debate.
+
+- Filtered only **retweets** 
+
+- Searched for the *audifono* misinformation (simple regex search)
+
+- Employed **Community Detection algorithms** to identify Pro-Macri and Anti-Macri
+
+Using the exact time of the Chequeado Correction (False), we estimated the causal effects (.red[Regression Discontinuity Design]) of the intervention on users' reaction (time-to-retweet)
 
 
-.panel[.panel-name[Results I] 
 
-.center[Are partisans more active on social media ?
+---
 
-```{r out.width="80%"}
-knitr::include_graphics("./figs/naf_b.png")
+### Results: Time-to-Retweet after the Correction
+
+.panelset.sideways[
+
+.panel[.panel-name[Discontinuity Visually]
+
+.center[
+```{r out.width="100%"}
+knitr::include_graphics("./figs/rd_graph.png")
+```
+
+]
+]
+
+.panel[.panel-name[Rd Robust Point-Estimates]
+
+.center[
+```{r out.width="100%"}
+knitr::include_graphics("./figs/rd_point.png")
 ```
 ]
 ]
 ]
+
+---
+
+### Conclusion

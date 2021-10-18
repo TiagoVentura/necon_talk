@@ -1,3 +1,34 @@
+:root {
+/*-- COLOR VARIABLES --*/
+--DarkBlue:           #003087;
+--Blue:               #005EB8;
+--BrightBlue:         #0072CE;
+
+--Black:              #231F20;
+--DarkGrey:           #425563;
+--MidGrey:            #768692;
+--PaleGrey:           #E8EDEE;
+--White:              #FFFFFF;
+
+--DarkGreen:          #006747;
+--Green:              #009639;
+--AquaGreen:          #00A499;
+
+--Purple:             #330072;
+--DarkPink:           #7C2855;
+--Pink:               #AE2573;
+--DarkRed:            #8A1538;
+--Red:                #DA291C;
+
+--my-blue:            #122140;
+--my-yellow:          #e5bf00;
+--my-gold:            #ae8f00;
+
+--my-coral:          #903030;
+--my-red:            #600018;
+--my-pink:           #c09090;
+}
+
 .footnote {
   position: absolute;
   bottom: 60px;
@@ -67,4 +98,87 @@ h4 {
   height: 100%;
   background-color: var(--header-color);
 }
+
+.red{
+color: #C93312;  
+}
+
+
+
+
+/*-- Custom classes for text emphasis --*/
+.blue       { color:  var(--Blue) }
+.green      { color:  var(--Green) }
+.pink       { color:  var(--Pink) }
+.warmyellow { color:  var(--WarmYellow) }
+.palegrey   { color:  var(--PaleGrey)}
+.my-blue    { color:  var(--my-blue) }
+.my-yellow  { color:  var(--my-yellow) }
+.my-gold    { color:  var(--my-gold)}
+.my-red     { color:  var(--my-red) }
+.my-coral   { color:  var(--my-coral) }
+.my-pink    { color:  var(--my-pink) }
+.my-hot-pink { background-color: #ff69b4 }
+
+/*-- EXPERIMENTAL -----------------------------------------------------------*/
+
+/*-- 3 column layout --*/
+.left-col {
+  width: 29%;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;
+}
+
+.center-col {
+  width: 29%;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;
+}
+
+.right-col {
+  width: 29%;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: left;
+}
+
+/* five-column layout */
+
+/*.flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  text-align: center;
+}*/
+
+/*.columns { display: flex; }*/
+
+.pull-left {
+  padding-top: 0px;
+}
+
+.pull-left-narrow {
+  float: left;
+  width: 20%;
+}
+
+.pull-right-wide {
+  float: right;
+  width: 75%;
+}
+/* Clear floats after the columns */
+.pull-right-wide + * { clear: both; }
+
+
+
   
