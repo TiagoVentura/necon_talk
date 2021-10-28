@@ -186,7 +186,9 @@ Previous work have discussed several reasons why people share misinformation:
 
 ### Fact-Checking 
 
-Fact-checkers have become ubiquitous to most media companies. Several recent scholarly work on the effects of fact-checking correction:
+Fact-checkers have become ubiquitous to most media companies. 
+
+Several recent scholarly work have shown effects of fact-checking corrections on attitudes:
 
 - Fact-checking overall reduces misperceptions (Walter et al 2020, Wood and Porter, 2021, Nyhan et. al. 2020).
 
@@ -195,7 +197,7 @@ Fact-checkers have become ubiquitous to most media companies. Several recent sch
 ---
 class: middle
 
-While we have enough evidence for the effects of corrections on attitudes, less is known considering the effects of corrections on behavior on-line. Particularly, investigations on cognitive moderators of sharing corrections.
+While we have enough evidence for the effects of corrections on attitudes,  fewer studies address the motivations for sharing corrections to political misinformation and what make users more willing to propagate corrections.
 
 - Users prefer to share pro-attitudinal corrections (Ekstrom & Lai, 2020, Lewendosky et al., 2012)
 
