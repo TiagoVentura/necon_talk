@@ -47,6 +47,7 @@ name: about-me
 layout: false
 class: about-me-slide, inverse, middle, center
 
+
 ## .red[About me]
 
 <img style="border-radius: 40%;" src="./figs/tiago.jpg" width="150px"/>
@@ -191,7 +192,8 @@ Fact-checkers have become ubiquitous to most media companies. Several recent sch
 
 - Little Evidence of back-fire effect (Wood and Porter, 2019).
 
---
+---
+class: middle
 
 While we have enough evidence for the effects of corrections on attitudes, less is known considering the effects of corrections on behavior on-line. Particularly, investigations on cognitive moderators of sharing corrections.
 
@@ -199,7 +201,6 @@ While we have enough evidence for the effects of corrections on attitudes, less 
 
 - Partisans consult congenial sources to adjudicate between true/false (Peterson and Iyengar, 2020)
 
---
 
 ---
 class: middle, inverse
@@ -381,21 +382,6 @@ knitr::include_graphics("./figs/false_audifono.png")
 ]
 ]
 
-.panel[.panel-name[Pro-Macri]
-
-.center[
-```{r out.width="60%"}
-knitr::include_graphics("./figs/ofelia_true.png")
-```
-
-```{r out.width="60%"}
-knitr::include_graphics("./figs/ofelia_false.png")
-```
-
-
-]
-
-]
 .panel[.panel-name[Full-Models]
 
 .center[
@@ -404,6 +390,20 @@ knitr::include_graphics("./figs/pred_prob.png")
 ```
 ]
 ]
+
+.panel[.panel-name[Latency]
+
+.center[
+```{r out.width="80%"}
+knitr::include_graphics("./figs/latency.png")
+```
+
+
+]
+
+]
+
+
 ]
 
 ---
@@ -468,3 +468,33 @@ knitr::include_graphics("./figs/rd_point.png")
 ---
 
 ### Conclusion
+
+<br><br><br>
+
+.panelset.sideways[
+
+.panel[.panel-name[Research Findings]
+
+
+- Users exhibit .red[partisan reasoning] when sharing corrections. 
+
+- More important,  a pro-attitudinal fact-check labeled .red[true] is more likely to be shared on social media than an equally congenial fact-check labeled .red[false]
+
+- This result suggests that sharing fact-checking messages is regulated by the .red[hot cognition] and confirmatory bias (directional goals driven by automatic responses)
+
+]
+
+.panel[.panel-name[Policy Implications]
+
+
+
+#### .red[Fact-checkers should consider presenting their work with a ‘true’ adjudication more often]
+
+]
+]
+
+---
+class:inverse, middle, center
+
+## Thank you!
+
