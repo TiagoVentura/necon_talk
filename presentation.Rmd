@@ -2,7 +2,7 @@
 title: "Truth be told: Cognitive moderators of selective sharing of fact-checks on social media"
 author: "Tiago Ventura"
 institute: "University of Maryland, College Park"
-date: "Necon - 10/22/2021"
+date: "Necon - 10/28/2021"
 output:
   xaringan::moon_reader:
     css: ["xaringan-themer.css", "custom.css", "mytheme-fonts.css"]
