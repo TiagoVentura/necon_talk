@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Truth be told: Cognitive moderators of selective sharing of fact-checks on social media</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Tiago Ventura" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
+    <script src="libs/tile-view/tile-view.js"></script>
+    <link href="libs/panelset/panelset.css" rel="stylesheet" />
+    <script src="libs/panelset/panelset.js"></script>
+    <script src="libs/kePrint/kePrint.js"></script>
+    <link href="libs/lightable/lightable.css" rel="stylesheet" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="custom.css" type="text/css" />
+    <link rel="stylesheet" href="mytheme-fonts.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Truth be told: Cognitive moderators of selective sharing of fact-checks on social media
+### Tiago Ventura
+### University of Maryland, College Park
+### EGAP - 11/04/2021
+
+---
+
+
+
+
+
+class: middle, inverse
+
+### When do users share fact-checks with their peers?
+
+#### .red[What are the main cognitive moderators of the decision to share corrections?]
+
+---
+class: middle
+
+
+.pull-left-narrow[
+
+#### .red[Hypothesis] 
+
+]
+
+.pull-right-wide[
+
+- *H1: Attitude-consistent fact-checks are more likely to be shared than counter-attitudinal fact-checks.*
+
+- *H2: Attitude-consistent fact-checks rated ‘true’ are more likely to be shared than attitude-consistent fact-checks rated ‘false.’*
+] 
+
+---
+
+class:middle, center, inverse
+
+## Research Design
+
+
+---
+### Research Design: Experiment + Social Media Data
+
+&lt;br&gt;&lt;br&gt;
+
+Our paper combines two distinct empirical approaches:
+
+- .red[On-line Experiment] ~&gt; Two Stage, Two Arm Experiment, where respondents are assigned to True/False Fact-Checking Corrections. 
+
+- .red[Observational data] ~&gt; Social media from Twitter + a regression discontinuity design. 
+
+
+---
+
+### Experimental Design: General Flow
+
+
+.center[
+&lt;img src="figs/flow.png" width="4680" /&gt;
+]
+
+---
+### Experimental Design: With Images I
+
+.pull-left[
+
+.center[
+&lt;br&gt;
+&lt;img src="figs/macri_aud.png" width="80%" /&gt;
+
+]
+]
+.pull-right[
+
+.center[
+&lt;img src="figs/true.png" width="50%" /&gt;
+
+
+&lt;img src="figs/false.png" width="50%" /&gt;
+]
+]
+
+---
+
+### Experimental Design: With Images I
+
+.pull-left[
+
+.center[
+&lt;br&gt;
+&lt;img src="figs/ofe.png" width="80%" /&gt;
+
+]
+]
+.pull-right[
+
+.center[
+&lt;img src="figs/of_true.png" width="50%" /&gt;
+
+
+&lt;img src="figs/false_of.png" width="50%" /&gt;
+]
+]
+
+
+---
+### Experimental Design and Hypotheses
+
+&lt;br&gt;&lt;br&gt;
+
+.center[**Would you share?**]
+&lt;table class="table table-hover" style="font-size: 14px; margin-left: auto; margin-right: auto;"&gt;
+ &lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="empty-cells: hide;border-bottom:hidden;" colspan="1"&gt;&lt;/th&gt;
+&lt;th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="3"&gt;&lt;div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; "&gt;Audifono&lt;/div&gt;&lt;/th&gt;
+&lt;th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="3"&gt;&lt;div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; "&gt;Ofelia&lt;/div&gt;&lt;/th&gt;
+&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; Vote Choice &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Tweet &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; True &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; False &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Tweet_2 &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; True_Tw2 &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; False_Tw2 &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 1.5in; font-weight: bold;"&gt; Fernández &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Pro-attitudinal message
+H1 (+) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &lt;span style=" font-weight: bold;    color: darkgreen !important;"&gt;Pro-attitudinal confirmation&lt;br&gt;H2 (++)&lt;/span&gt; &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Counter-attitudinal refutation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Counter-attitudinal message &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Counter-attitudinal confirmation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &lt;span style=" font-weight: bold;    color: #C93312 !important;"&gt;Pro-attitudinal refutation&lt;br&gt;H2 (+)&lt;/span&gt; &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;width: 1.5in; font-weight: bold;"&gt; Macri &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Counter-attitudinal message &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Counter-attitudinal confirmation &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &lt;span style=" font-weight: bold;    color: #C93312 !important;"&gt;Pro-attitudinal refutation H2 (+)&lt;/span&gt; &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Pro-attitudinal message
+H1 (+) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; &lt;span style=" font-weight: bold;    color: darkgreen !important;"&gt;Pro-attitudinal confirmation&lt;br&gt;H2 (++)&lt;/span&gt; &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Counter-attitudinal refutation &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+
+---
+class:middle, center, inverse
+
+## Results
+
+
+---
+
+### H1: Pro-Attitudinal Effects
+
+.panelset.sideways[
+
+.panel[.panel-name[Audifono]
+
+.center[
+&lt;img src="./figs/TW1.png" width="80%" /&gt;
+]
+]
+
+.panel[.panel-name[Ofelia]
+.center[
+&lt;img src="./figs/TW2.png" width="100%" /&gt;
+]
+]
+]
+
+---
+
+### H2: Effects of Correction, Macri
+
+.panelset.sideways[
+
+.panel[.panel-name[True]
+
+.center[
+&lt;img src="./figs/true_audifono.png" width="100%" /&gt;
+
+
+]
+]
+
+.panel[.panel-name[False]
+
+.center[
+
+&lt;img src="./figs/false_audifono.png" width="100%" /&gt;
+
+]
+]
+]
+
+---
+
+### H2: Effects of Correction, Ofelia
+
+.panelset.sideways[
+
+.panel[.panel-name[True]
+
+.center[
+&lt;img src="./figs/corr_off_false.png" width="100%" /&gt;
+
+
+]
+]
+
+.panel[.panel-name[False]
+
+.center[
+
+&lt;img src="./figs/corr_off_false_.png" width="100%" /&gt;
+
+]
+]
+]
+
+---
+## Results: Models
+
+&lt;img src="./figs/pred_prob.png" width="80%" /&gt;
+
+---
+
+## Results: Latency
+
+
+.center[
+&lt;img src="./figs/latency.png" width="65%" /&gt;
+
+]
+
+---
+class:center, middle, inverse
+
+### Observational Social Media Data
+
+---
+### Research Design
+
+&lt;br&gt;&lt;br&gt;
+
+Using the Twitter APIs we collected close to .red[3 million] Tweets during the two weeks around the debate.
+
+- Filtered only **retweets** 
+
+- Searched for the *audifono* misinformation (simple regex search)
+
+- Employed **Community Detection algorithms** to identify Pro-Macri and Anti-Macri
+
+Using the exact time of the Chequeado Correction (False), we estimated the causal effects (.red[Regression Discontinuity Design]) of the intervention on users' reaction (time-to-retweet)
+
+
+---
+
+### Results: Time-to-Retweet after the Correction
+
+.panelset.sideways[
+
+.panel[.panel-name[Discontinuity Visually]
+
+.center[
+&lt;img src="./figs/rd_graph.png" width="100%" /&gt;
+
+]
+]
+
+.panel[.panel-name[Rd Robust Point-Estimates]
+
+.center[
+&lt;img src="./figs/rd_point.png" width="100%" /&gt;
+]
+]
+]
+
+---
+
+### Conclusion
+
+&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+.panelset.sideways[
+
+.panel[.panel-name[Research Findings]
+
+
+- Users exhibit .red[partisan reasoning] when sharing corrections. 
+
+- More important,  a pro-attitudinal fact-check labeled .red[true] is more likely to be shared on social media than an equally congenial fact-check labeled .red[false]
+
+- This result suggests that sharing fact-checking messages is regulated by the .red[hot cognition] and confirmatory bias (directional goals driven by automatic responses)
+
+]
+
+.panel[.panel-name[Policy Implications]
+
+
+
+#### .red[Fact-checkers should consider presenting their work with a ‘true’ adjudication more often]
+
+]
+]
+
+---
+class:inverse, middle, center
+
+## Thank you!
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"slideNumberFormat": "<div class=\"progress-bar-container\">\n  <div class=\"progress-bar\" style=\"width: calc(%current% / %total% * 100%);\">\n  </div>\n</div>"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
