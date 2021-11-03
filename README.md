@@ -1,5 +1,9 @@
 # Talk at Necon Iesp-UERJ
 
-This repository contains my presentation my talk at Necon IESP-UERJ. I presented the paper "Truth be Told" curently under review. 
 
-The link for the presentation is available [here](https://tiagoventura.github.io/necon_talk/presentation.html)
+**This repository contains two presentation for my paper "Truth be Told". The paper is currently under review, and can be shared upon request.**
+
+
+#### NECON IESP-UERJ, October 28. Presentation [here](https://tiagoventura.github.io/necon_talk/presentation.html)
+
+#### EGAP, November 04. Presentation [here](https://tiagoventura.github.io/necon_talk/presentation_egap.html)
